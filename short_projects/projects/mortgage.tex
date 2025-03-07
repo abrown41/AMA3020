@@ -1,0 +1,13 @@
+\section{Paying off a mortgage\\ \small{(%Pathway: Any; 
+Pre-requisite: None)}}
+%\item
+%\underline{\large\bf Modelling walking through a pendulum model} \\[0.1cm]
+The problem of repaying a mortgage can be cast of the form of a differential equation
+\begin{equation}
+\label{rateeq}
+\frac{dB}{dt} - \alpha B = -r,            %\qquad\qquad\qquad (1)
+\end{equation}
+where $B$ is the outstanding balance on the loan, $\alpha $ is the interest rate (i.e., a fraction of the remaining loan charged per unit time), and $r$ is the rate of mortgage payments, i.e., the money that must be paid to the bank or building society per unit time). Solving this equation for constant $\alpha $ and $r$ allows one to find the solution $B(t)$ that satisfies the conditions $B(0)=B_0$ (initial size of the mortgage) and 
+$B(T)=0$, where $T$ is the end time of the mortgage. From this, you should be able to find $r$, i.e., determine the monthly payments (if the month is used as a unit of time).
+
+In practice, the interest rate will usually vary during the lifetime of a mortgage, which means that you need to consider Eq.~\eqref{rateeq} for $\alpha $ being a function of time, i.e., $\alpha (t)$. As a result, $r$ will no longer be a constant, but using the first part of your investigation, you should be able to find the repayment rate that allows one to pay off the mortgage by the time $T$. You should thus be able to find the solution of Eq.~\eqref{rateeq} for an arbitrary $\alpha (t)$. This solution may contain some integrals that can be evaluated numerically (e.g., using Python or Mathematica), allowing you to explore the behaviour of $B(t)$ and $r$ as functions of time for different cases (e.g., growing, descreasing or oscillating $\alpha (t)$).

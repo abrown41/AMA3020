@@ -1,0 +1,39 @@
+\section{Time and tides\\ \small{(%Pathway: Any; 
+Pre-requisite: None)}}
+%\item
+%\underline{\large\bf Time and Tides}  
+The times of low and high tides are important for holidaymakers as well as
+fishermen at sea. Tidal information can also be used to spot
+tsunamis well in advance of them reaching shore. This project investigates
+the mathematics behind so-called tide tables.\\[6pt]
+The height of the tide $h(t)$ at any point on the Earth depends
+on many factors including its geographical location, coastline, ocean
+currents and storms. The primary cause of the tides is the force of gravity
+due to the Moon and the Sun, that combine to give the daily, monthly and
+seasonal tides. The three main cycles are: the daily rotation of the Earth
+$\omega_1$, the monthly rotation of the moon around the Earth $\omega_2$, and
+the annual motion of the Earth around the sun $\omega_3$.
+There are also two small lower-frequency corrections for the precession of
+the Earth-Moon orbit (the perigee and orbital plane) but these can be
+neglected.\\[6pt]
+The simplest model of the tide height is given by
+\[
+h(t) = h_0 + a \cos\Omega t + b \sin\Omega t,
+\]
+with $h_0$ the average sea level. The frequency $\Omega $ has a well-known
+value [1]
+\[
+\Omega = 2(\omega_1 - \omega_2 + \omega_3) = 28.984~\mbox{deg/hr},
+\]
+while the remaining parameters $h_0$, $a$ and $b$ depend on the location of the
+port [2]. This investigation requires you to find them. This can be done by
+using data for $h(t)$ from tide tables for a few days, and solving the linear
+equations to determine $h_0$, $a$ and $b$. Once these are found, you can
+{\em predict} the times for high and low tides over the whole week or
+fortnight. Do this for Bristol and Donaghadee and then compare your forecast
+with the forecasts or measurements made at these harbours. Can you suggest
+any improvements to your model, and how these might be implemented?\\[6pt]
+You may also use data from the NOAA Tsunami center [3].\\[6pt]
+[1] \verb|www.math.sunysb.edu/~tony/tides/harmonic.html|\\[3pt]
+[2] \verb|http://news.bbc.co.uk/weather/coast_and_sea/tide_tables/|\\[3pt]
+[3] \verb|www.ndbc.noaa.gov/dart.shtml|

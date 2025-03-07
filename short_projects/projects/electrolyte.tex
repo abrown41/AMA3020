@@ -1,0 +1,40 @@
+\section{Models for electrolyte solutions\\ \small{(%Pathway: AMA; 
+Pre-requisite: None)}}
+%\item
+%\underline{\large\bf Models for electrolyte solutions} \\[0.1cm]
+\setcounter{equation}{0}
+In the Debye-H\"uckel model for electrolyte solutions, the electrostatic
+potential due to an ion $A$ with charge $q_A$ is reduced from the Coulomb value
+$\phi (r)= q_A/4 \pi \varepsilon \varepsilon_0 r$ due to screening by other
+ions. In this expression $r$ is the distance from the origin, and
+$\varepsilon $ is the dielectric constant of the liquid. To obtain the
+{\em screened potential} one combines the Poisson equation for the
+electrostatic potential,
+\begin{equation} \nabla^2 \phi(r) = - \frac{\rho(r)}
+{\varepsilon \varepsilon_0} ,\label{one}
+\end{equation}
+where $\rho(r)$ is the charge density, with the Boltzmann expression for the
+probability per unit volume of finding an ion $B$ with charge $q_B$ at
+distance $r$ from ion $A$
+\begin{equation} p_B=c_B \exp[-q_B \phi(r)/kT]. \label{two}
+\end{equation}
+Here $c_B$ is the average number of ions of type $B$ per unit volume
+(i.e., their concentration), $k$ is the Boltzmann constant and $T$ is
+temperature. Combining (\ref{one}) and (\ref{two}) one obtains
+\begin{equation}
+\nabla^2 \phi(r) = -\sum_i c_i q_i \exp[-q_i \phi(r)/kT]/
+(\varepsilon \varepsilon_0),
+\end{equation}
+where the sum is over all types of ions in the solution.
+\begin{itemize}\setlength{\itemsep}{0pt}
+\item[(a)] Write down this equation for the case where there are two types of
+ions present in solution with charges $+e$ and $-e$ and concentration $c$ (e.g.,
+a solution of NaCl).
+\item[(b)] Simplify it by expanding the exponential in powers of $e \phi/kT$\
+and keeping the lowest order term. Solve this linearised equation for $\phi(r)$.
+\item[(c)] Discuss the changes that result if the ions have diameter $a$ so
+that equation (\ref{two}) only holds for $r>a$ and $p_B=0$ for $r<a$.
+\end{itemize}
+Reading: P.~W.~Atkins and J. de Paula, {\em Physical Chemistry}.
+
+

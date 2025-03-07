@@ -1,0 +1,28 @@
+\section{Stiff differential equations\\ \small{(%Pathway: Any; 
+Pre-requisite: None, but familiarity with coding would help)}}
+%\item
+%\underline{\large\bf Stiff differential equations} \\[0.1cm]
+Many differential equations that are of importance in mathematics and its
+applications can only be solved numerically. In this case one must ensure that
+the solution obtained is {\em accurate}. In particular, errors can occur when
+solutions contain terms that decrease rapidly. This problem can be illustrated
+by the following equation
+\begin{displaymath}
+\frac{dx}{dt} = -30x,
+\end{displaymath}
+that needs to be solved with the initial conditions $x(0)=1$.
+\begin{itemize}\setlength{\itemsep}{0pt}
+\item Calculate the estimated value of $x(h)$ using a single step of the
+Runge-Kutta method of order 4 for various step sizes $h$ and compare with the
+exact result.
+\item Use the scipy differential equation solver {\tt vode}
+with integrator option {\tt `bdf'} (stiff problems) and {\tt `adams'} (non-stiff problems) to find numerical
+solutions and compare them with the exact result.
+\item Repeat the last two steps for
+\begin{displaymath}
+\dot x=-20x+20\sin \omega t + \omega \cos \omega t
+\end{displaymath}
+What happens for $\omega =0.02$? What happens for other values of $\omega $?
+\end{itemize}
+See also {\it Numerical Analysis} by R.~L.~Burden and J.~D.~Faires.
+

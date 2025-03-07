@@ -1,0 +1,31 @@
+\section{Random walks on Wall Street\\ \small{(%Pathway: Any with a small bias to AMA; 
+Pre-requisite: None really, but you need to be willing to code and you should be familiar with differential equations)}}
+%\item
+%\underline{\large \bf Random walks on Wall Street} \\[0.1cm]
+\setcounter{equation}{0}
+The problem in predicting the prices of financial products is an apparently
+random nature of their variation [1]. One mathematical model of price
+fluctuations is the {\em random walk} [1,2], where one assumes that the price
+jumps (up or down) are given by a normal distribution. This mathematical
+problem is very closely related to the problem of Brownian motion solved
+in 1905 by Einstein.\\[6pt]
+Let $S(t)$ be the price of shares at time $t$. Let us assume that the change
+in $S$ during time interval $dt$ can be described by the equation
+\begin{equation}\label{eq:dS}
+dS = a S  dt+ b S dW ,
+\end{equation}
+where $a$  and $b$ are constants. The second term in Eq. (\ref{eq:dS}) is a
+random jump and $dW$ is a normally distributed random variable with
+zero mean and variance $dt$. \\[6pt]
+This project is about solving equation (\ref{eq:dS}) step-by-step using 
+a computer, for one or two values of $a$ and $b$. This requires writing a
+short program that generates the random numbers (jumps) so that you can
+calculate $dS$. You can then compare your computed result for $S(t)$ with the
+exact solution of the equation.\\[6pt]
+%That is, if the initial value of $S$ is $S_0$ then after a time, $t$,
+%$$
+%S(t) = S_0 \exp \left[   (a-{\textstyle {1 \over 2}} b^2)t+b W(t) \right]
+%$$
+[1] J.~C. Hull J C,{\em Options, futures and other derivatives\/}.\\[3pt]
+[2] P.~E. Kloeden, E. Platen, and H. Shurz, {\em Numerical solution of
+stochastic differential equations through computer experiments\/}.

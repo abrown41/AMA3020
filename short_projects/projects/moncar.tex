@@ -1,0 +1,29 @@
+ \section{Monte Carlo integration\\ \small{(%Pathway: Any; 
+ Pre-requisite: None)}}
+%\item
+%\underline{\large \bf Monte Carlo integration}
+Integrals can not always be found analytically in a closed form. Numerical
+methods like Gauss-Hermite integration, allow one to calculate
+single- and multidimensional integrals in a few dimensions (2, 3, perhaps 4)
+by evaluating the integrand for a number of points in the integration
+domain. These methods, however, scale as $M^N$ where $M$ is the number of grid
+points in each dimension and $N$ is the dimensionality.\\[6pt]
+An alternative methodology for calculating integrals in a large number
+of dimensions is based on {\em stochastic sampling} of the integration domain.
+Instead of evaluating the function on a regular grid of points, these points
+are chosen randomly, but in such a way that the most relevant regions of
+the integration domain are sampled more accurately (importance sampling).
+This is called Monte Carlo integration.\\[6pt]
+The project requires one to
+\begin{itemize}\setlength{\itemsep}{0pt}
+\item [(a)]Describe the method of Monte Carlo multidimensional integration,
+including the idea of importance sampling and the Metropolis algorithm.
+\item [(a)]Write a program for Monte Carlo (using python or any other
+programming language), and apply it to a standard test problem.
+Are there any approaches to improve the accuracy of the calculation?\\[6pt]
+\end{itemize}
+{\bf References}\\[3pt]
+M. Allen and D. Tildesley, {\it Computer Simulation of Liquids\/}.\\[3pt]
+D. Frenkel and B. Smit, {\it Understanding Molecular Simulation: from
+Algorithms to Applications\/}.\\[3pt]
+K. Binder, editor, {\it Monte Carlo Methods in Statistical Physics\/}.

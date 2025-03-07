@@ -1,0 +1,50 @@
+\section{Fibonacci and related numbers\\ \small{(%Pathway: AMA; 
+Pre-requisite: None)}}
+%\item
+%\underline{\large\bf Fibonacci and related numbers} \\[0.1cm]
+{\em Fibonacci numbers} $\{F_n\}$ satisfy the recurrence relation
+\begin{displaymath}
+F_{n+2} =  F_{n+1}+F_n \qquad (n \geq 1),
+\end{displaymath}
+with $F_1=F_2=1$.  They are given explicitly by Binet's formula
+\begin{equation}\label{eq:Fib}
+F_{n} = \frac{\alpha^n - \beta^n}{\sqrt 5},
+\end{equation}
+where $\alpha, \beta$ are the roots of $x^2 -x - 1$ = 0. \\[6pt]
+{\em Lucas numbers} $\{L_n\}$ satisfy the same recurrence relation
+\begin{displaymath}
+L_{n+2} = L_{n+1}+L_n \qquad (n \geq 1),
+\end{displaymath}
+but have $L_1=1$, $L_2=3$.
+\begin{itemize}\setlength{\itemsep}{0pt}
+\item Find an expression for $L_n$ similar to that for $F_n$, given by
+Eq.~(\ref{eq:Fib}).
+\item Show that $F_{n+2}+F_n=L_{n+1}$.
+\item Consider other relations involving these number sequences.
+\item Consider other related sequences.
+\end{itemize}
+
+A related problem (suggested by Dr Alex Schuchinsky) is to consider a sequence
+of ``words'' constructed from two symbols, say $a$ and $b$, in which the next
+member of the sequence is constructed by concatenating the two previous
+``words''. Starting from the two smallest ``words'', i.e., $a$ and $b$, one
+obtains
+\[
+a,~b,~ab,~bab,~abbab,~bababbab,~\text{etc.}
+\]
+As one can see, the length of the $n$th word in the sequence is $F_n$.
+One can also notice that starting from the fifth member, the ``words'' contain
+at least one ``double-b'', i.e., $bb$. Is it possible to determine,
+how many $bb$'s are in the $n$th ``word''?
+
+% Solution: The recurrency relation for the number of ``double-bes'' is
+% $B_{2n+1}=B_{2n}+B_{2n-1}+1$ and $B_{2n}=B_{2n-1}+B_{2n-2}$. Using these
+% one can show that $B_{2n+1}=3B_{2n-1}-B_{2n-3}$ that links three
+% conseciuitive odd member of the sequence. Solving this, and using
+% the ``initial conditions'' $B_3=0$, $B_5=1$, one obtains:
+% $B_{2n+1}=(p^{n-1}-q^{n-1})\sqrt{5}$, where $p=(3+\sqrt{5})/2$
+% and $q=(3-\sqrt{5})/2$ are the two roots of the quadratic equation
+% $x^2-3x+1=0$. Even members of the series can be found from the recurrency
+% relation formula $B_{2n}=B_{2n+1}-B_{2n-1}-1$.
+
+

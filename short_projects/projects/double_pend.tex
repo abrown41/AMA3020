@@ -1,0 +1,29 @@
+\section{Double pendulum\\ \small{(%Pathway: AMA; 
+Pre-requisite: Classical Mechanics)}}
+% Double pentulum
+A double pendulum is a pendulum with a second pendulum attached to it. We
+assume that each pendulum consists of a mass $m$ at the end of a massless rod
+of length $\ell$. Their positions are described by the angles $\phi _1$
+and $\phi _2$ that each pendulum makes with the vertical.\\[6pt]
+The Lagrangian of the system reads (verify!)
+$$
+L=\frac 12m\ell^2\left[2\dot\phi _1^2+\dot\phi _2^2+2\dot\phi _1\dot\phi _2
+\cos(\phi _1-\phi _2)\right]+mg\ell(2\cos\phi _1+\cos\phi _2) 
+$$
+
+\begin{enumerate}\setlength{\itemsep}{0pt}
+\item List the conserved quantities.
+\item Describe qualitatively the motion of the pendulums with simple initial
+conditions, e.g., one at rest and the other one with some initial velocity.
+\item Write Lagrange's equations of motion for the variables $\phi _i$.
+Investigate the motion for small $\phi _i$.
+\item Use the Runge-Kutta [1] method to solve the equations of motion for
+arbitrary initial conditions, using python or a programming language of your
+choice.
+\item Test your program with the initial conditions you discussed in 2 and
+comment.
+\end{enumerate}
+
+[1] See for example: R. L. Burden and J. D. Faires, {\it Numerical Analysis}
+
+

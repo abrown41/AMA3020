@@ -1,0 +1,96 @@
+\contentsline {section}{\numberline {1}The simple pendulum\\ \small {(Pathway: AMA; Pre-requisite: Classical Mechanics)}}{2}{section.1}%
+\contentsline {section}{\numberline {2}The simple pendulum\\ \small {(Pre-requisite: Classical Mechanics)}}{2}{section.2}%
+\contentsline {section}{\numberline {3}No one should miss a penalty!\\ \small {(Pathway: Any; Pre-requisite: None)}}{2}{section.3}%
+\contentsline {section}{\numberline {4}No one should miss a penalty!\\ \small {(Pre-requisite: None)}}{2}{section.4}%
+\contentsline {section}{\numberline {5}At the rising of the Sun\\ \small {(Pathway: Any; Pre-requisite: None)}}{2}{section.5}%
+\contentsline {section}{\numberline {6}At the rising of the Sun\\ \small {(Pre-requisite: None)}}{2}{section.6}%
+\contentsline {section}{\numberline {7}Loose chippings\\ \small {(Pathway: Any; Pre-requisite: None)}}{2}{section.7}%
+\contentsline {section}{\numberline {8}Loose chippings\\ \small {(Pre-requisite: None)}}{2}{section.8}%
+\contentsline {section}{\numberline {9}Stiff differential equations\\ \small {(Pathway: Any; Pre-requisite: None, but familiarity with coding would help)}}{3}{section.9}%
+\contentsline {section}{\numberline {10}Stiff differential equations\\ \small {(Pre-requisite: None, but familiarity with coding would help)}}{3}{section.10}%
+\contentsline {section}{\numberline {11}Fibonacci and related numbers\\ \small {(Pathway: AMA; Pre-requisite: None)}}{3}{section.11}%
+\contentsline {section}{\numberline {12}Fibonacci and related numbers\\ \small {(Pre-requisite: None)}}{3}{section.12}%
+\contentsline {section}{\numberline {13}Dipsticks\\ \small {(Pathway: Any; Pre-requisite: None)}}{4}{section.13}%
+\contentsline {section}{\numberline {14}Dipsticks\\ \small {(Pre-requisite: None)}}{4}{section.14}%
+\contentsline {section}{\numberline {15}Circles on a lattice\\ \small {(Pathway: Any; Pre-requisite: None)}}{4}{section.15}%
+\contentsline {section}{\numberline {16}Circles on a lattice\\ \small {(Pre-requisite: None)}}{4}{section.16}%
+\contentsline {section}{\numberline {17}Cycling into the wind\\ \small {(Pathway: AMA; Pre-requisite: Classical Mechanics)}}{4}{section.17}%
+\contentsline {section}{\numberline {18}Cycling into the wind\\ \small {(Pre-requisite: Classical Mechanics)}}{4}{section.18}%
+\contentsline {section}{\numberline {19}Bungee jumping\\ \small {(Pathway: Any; Pre-requisite: Classical Mechanics)}}{5}{section.19}%
+\contentsline {section}{\numberline {20}Bungee jumping\\ \small {(Pre-requisite: Classical Mechanics)}}{5}{section.20}%
+\contentsline {section}{\numberline {21}The error function\\ \small {(Pathway: Any; Pre-requisite: Familiarity with integration)}}{5}{section.21}%
+\contentsline {section}{\numberline {22}The error function\\ \small {(Pre-requisite: Familiarity with integration)}}{5}{section.22}%
+\contentsline {section}{\numberline {23}Square wheels\\ \small {(Pathway: Any; Pre-requisite: None)}}{5}{section.23}%
+\contentsline {section}{\numberline {24}Square wheels\\ \small {(Pre-requisite: None)}}{5}{section.24}%
+\contentsline {section}{\numberline {25}Flat green bowling\\ \small {(Pathway: AMA; Pre-requisite: Classical Mechanics)}}{6}{section.25}%
+\contentsline {section}{\numberline {26}Flat green bowling\\ \small {(Pre-requisite: Classical Mechanics)}}{6}{section.26}%
+\contentsline {section}{\numberline {27}Happy birthday!\\ \small {(Pathway: SOR; Pre-requisite: None)}}{6}{section.27}%
+\contentsline {section}{\numberline {28}Happy birthday!\\ \small {(Pre-requisite: None)}}{6}{section.28}%
+\contentsline {section}{\numberline {29}A model for giving up smoking\\ \small {(Pathway: Any; Pre-requisite: Familiarity with differential equations)}}{6}{section.29}%
+\contentsline {section}{\numberline {30}A model for giving up smoking\\ \small {(Pre-requisite: Familiarity with differential equations)}}{6}{section.30}%
+\contentsline {section}{\numberline {31}Making the best of it\\ \small {(Pathway: Any; Pre-requisite: None)}}{7}{section.31}%
+\contentsline {section}{\numberline {32}Making the best of it\\ \small {(Pre-requisite: None)}}{7}{section.32}%
+\contentsline {section}{\numberline {33}Two coupled spins\\ \small {(Pathway: AMA; Pre-requisite: Quantum Theory)}}{7}{section.33}%
+\contentsline {section}{\numberline {34}Two coupled spins\\ \small {(Pre-requisite: Quantum Theory)}}{7}{section.34}%
+\contentsline {section}{\numberline {35}Newton-Raphson in $N$ dimensions\\ \small {(Pathway: Any; Pre-requisite: None, but willingness to code a bit)}}{8}{section.35}%
+\contentsline {section}{\numberline {36}Newton-Raphson in $N$ dimensions\\ \small {(Pre-requisite: None, but willingness to code a bit)}}{8}{section.36}%
+\contentsline {section}{\numberline {37}Equal shares\\ \small {(Pathway: Any; Pre-requisite: None)}}{8}{section.37}%
+\contentsline {section}{\numberline {38}Impacts and executive toys\\ \small {(Pathway: AMA; Pre-requisite: Classical Mechanics)}}{8}{section.38}%
+\contentsline {section}{\numberline {39}Impacts and executive toys\\ \small {(Pre-requisite: Classical Mechanics)}}{8}{section.39}%
+\contentsline {section}{\numberline {40}Bloch equations\\ \small {(Pathway: AMA; Pre-requisite: None)}}{9}{section.40}%
+\contentsline {section}{\numberline {41}Bloch equations\\ \small {(Pre-requisite: None)}}{9}{section.41}%
+\contentsline {section}{\numberline {42}Electrons in a laser field\\ \small {(Pathway: AMA; Pre-requisite: Electromagnetism would help but is not necessary. Familiarity with coding)}}{9}{section.42}%
+\contentsline {section}{\numberline {43}Electrons in a laser field\\ \small {(Pre-requisite: Electromagnetism would help but is not necessary. Familiarity with coding)}}{9}{section.43}%
+\contentsline {section}{\numberline {44}Models for electrolyte solutions\\ \small {(Pathway: AMA; Pre-requisite: None)}}{10}{section.44}%
+\contentsline {section}{\numberline {45}Models for electrolyte solutions\\ \small {(Pre-requisite: None)}}{10}{section.45}%
+\contentsline {section}{\numberline {46}Control of protein synthesis\\ \small {(Pathway: Any; Pre-requisite: None)}}{10}{section.46}%
+\contentsline {section}{\numberline {47}Control of protein synthesis\\ \small {(Pre-requisite: None)}}{10}{section.47}%
+\contentsline {section}{\numberline {48}The electronic wave function of the hydrogen molecular ion\\ \small {(Pathway: AMA; Pre-requisite: Quantum theory)}}{11}{section.48}%
+\contentsline {section}{\numberline {49}The electronic wave function of the hydrogen molecular ion\\ \small {(Pre-requisite: Quantum theory)}}{11}{section.49}%
+\contentsline {section}{\numberline {50}Damped driven oscillations\\ \small {(Pathway: AMA; Pre-requisite: Classical Mechanics would help but is not necessary. Familiarity with coding)}}{11}{section.50}%
+\contentsline {section}{\numberline {51}Damped driven oscillations\\ \small {(Pre-requisite: Classical Mechanics would help but is not necessary. Familiarity with coding)}}{11}{section.51}%
+\contentsline {section}{\numberline {52}Chaos and nonlinearity\\ \small {(Pathway: Any with a small bias to AMA; Pre-requisite: None)}}{12}{section.52}%
+\contentsline {section}{\numberline {53}Chaos and nonlinearity\\ \small {(Pre-requisite: None)}}{12}{section.53}%
+\contentsline {section}{\numberline {54}The Jaynes-Cummings model\\ \small {(Pathways: AMA; Pre-requisite: Quantum Theory)}}{12}{section.54}%
+\contentsline {section}{\numberline {55}The Jaynes-Cummings model\\ \small {(Pre-requisite: Quantum Theory)}}{12}{section.55}%
+\contentsline {section}{\numberline {56}Harmonic oscillators\\ \small {(Pathway: Any with a small bias to AMA; Pre-requisite: None really, but Classical Mechanics would make things easier)}}{13}{section.56}%
+\contentsline {section}{\numberline {57}Harmonic oscillators\\ \small {(Pre-requisite: None really, but Classical Mechanics would make things easier)}}{13}{section.57}%
+\contentsline {section}{\numberline {58}Random walks on Wall Street\\ \small {(Pathway: Any with a small bias to AMA; Pre-requisite: None really, but you need to be willing to code and you should be familiar with differential equations)}}{13}{section.58}%
+\contentsline {section}{\numberline {59}Random walks on Wall Street\\ \small {(Pre-requisite: None really, but you need to be willing to code and you should be familiar with differential equations)}}{13}{section.59}%
+\contentsline {section}{\numberline {60}Weighing on a ship\\ \small {(Pathway: AMA; Pre-requisite: Classical Mechanics)}}{14}{section.60}%
+\contentsline {section}{\numberline {61}Weighing on a ship\\ \small {(Pre-requisite: Classical Mechanics)}}{14}{section.61}%
+\contentsline {section}{\numberline {62}Monte Carlo integration\\ \small {(Pathway: Any; Pre-requisite: None)}}{14}{section.62}%
+\contentsline {section}{\numberline {63}Monte Carlo integration\\ \small {(Pre-requisite: None)}}{14}{section.63}%
+\contentsline {section}{\numberline {64}Time and tides\\ \small {(Pathway: Any; Pre-requisite: None)}}{14}{section.64}%
+\contentsline {section}{\numberline {65}Time and tides\\ \small {(Pre-requisite: None)}}{14}{section.65}%
+\contentsline {section}{\numberline {66}A mid-air collision?\\ \small {(Pathway: Any; Pre-requisite: None)}}{15}{section.66}%
+\contentsline {section}{\numberline {67}Ellipse and its normals\\ \small {(Pathway: Any; Pre-requisite: None)}}{16}{section.67}%
+\contentsline {section}{\numberline {68}Ellipse and its normals\\ \small {(Pre-requisite: None)}}{16}{section.68}%
+\contentsline {section}{\numberline {69}Bouncing ball\\ \small {(Pathway: AMA; Pre-requisite: Classical mechanics)}}{16}{section.69}%
+\contentsline {section}{\numberline {70}Bouncing ball\\ \small {(Pre-requisite: Classical mechanics)}}{16}{section.70}%
+\contentsline {section}{\numberline {71}What's the angle between your vertebrae?\\ \small {(Pathway: Any; Pre-requisite: None)}}{17}{section.71}%
+\contentsline {section}{\numberline {72}What's the angle between your vertebrae?\\ \small {(Pre-requisite: None)}}{17}{section.72}%
+\contentsline {section}{\numberline {73}Two ships at anchor\\ \small {(Pathway: Any; Pre-requisite: None)}}{18}{section.73}%
+\contentsline {section}{\numberline {74}Two ships at anchor\\ \small {(Pre-requisite: None)}}{18}{section.74}%
+\contentsline {section}{\numberline {75}Double pendulum\\ \small {(Pathway: AMA; Pre-requisite: Classical Mechanics)}}{18}{section.75}%
+\contentsline {section}{\numberline {76}Double pendulum\\ \small {(Pre-requisite: Classical Mechanics)}}{18}{section.76}%
+\contentsline {section}{\numberline {77}Ladybird lost\\ \small {(Pathway: Any; Pre-requisite: Classical mechanics would help, but really none)}}{18}{section.77}%
+\contentsline {section}{\numberline {78}Ladybird lost\\ \small {(Pre-requisite: Classical mechanics would help, but really none)}}{18}{section.78}%
+\contentsline {section}{\numberline {79}Paper-scissors-stone\dots \ and jelly babies!\\ \small {(Pathway: Any, with a little bias to SOR; Pre-requisite: None, but willingness to code)}}{19}{section.79}%
+\contentsline {section}{\numberline {80}Paper-scissors-stone\dots \ and jelly babies!\\ \small {(Pre-requisite: None, but willingness to code)}}{19}{section.80}%
+\contentsline {section}{\numberline {81}Finding the truth in TEQs\\ \small {(Pathway: SOR; Pre-requisite: None but willingness to code a bit)}}{19}{section.81}%
+\contentsline {section}{\numberline {82}Finding the truth in TEQs\\ \small {(Pre-requisite: None but willingness to code a bit)}}{19}{section.82}%
+\contentsline {section}{\numberline {83}Narrow escape\\ \small {(Pathway: Any; Pre-requisite: None)}}{20}{section.83}%
+\contentsline {section}{\numberline {84}Narrow escape\\ \small {(Pre-requisite: None)}}{20}{section.84}%
+\contentsline {section}{\numberline {85}Optimal paths through trellis networks\\ \small {(Pathway: Any; Pre-requisite: None)}}{20}{section.85}%
+\contentsline {section}{\numberline {86}Assigning investigations\\ \small {(Pathway: Any with a little bias for SOR; Pre-requisite: None)}}{20}{section.86}%
+\contentsline {section}{\numberline {87}Assigning investigations\\ \small {(Pre-requisite: None)}}{20}{section.87}%
+\contentsline {section}{\numberline {88}Lenz's potentials\\ \small {(Pathway: AMA; Pre-requisite: Classical Mechanics)}}{21}{section.88}%
+\contentsline {section}{\numberline {89}Lenz's potentials\\ \small {(Pre-requisite: Classical Mechanics)}}{21}{section.89}%
+\contentsline {section}{\numberline {90}Milk and Coffee\\ \small {(Pathway: Any; Pre-requisite: None)}}{21}{section.90}%
+\contentsline {section}{\numberline {91}Minds swapping\\ \small {(Pathway: Any; Pre-requisite: None)}}{21}{section.91}%
+\contentsline {section}{\numberline {92}Minds swapping\\ \small {(Pre-requisite: None)}}{21}{section.92}%
+\contentsline {section}{\numberline {93}``Impossible'' exam question\\ \small {(Pathway: Any; Pre-requisite: None)}}{22}{section.93}%
+\contentsline {section}{\numberline {94}``Impossible'' exam question\\ \small {(Pre-requisite: None)}}{22}{section.94}%
+\contentsline {section}{\numberline {95}Design a robot\\ \small {(Pathway: Any; Pre-requisite: None)}}{22}{section.95}%
+\contentsline {section}{\numberline {96}Design a robot\\ \small {(Pre-requisite: None)}}{22}{section.96}%

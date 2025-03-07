@@ -1,0 +1,40 @@
+ \section{The Jaynes-Cummings model\\ \small{(%Pathways: AMA; 
+ Pre-requisite: Quantum Theory)}}
+%\item
+%\underline{\large\bf The Jaynes-Cummings model}  \\[0.1cm]
+Only very few models in quantum mechanics can be solved analytically. These
+models are of great interest as they allow the most detailed
+investigation of what is actually happening in quantum systems. The
+Jaynes-Cummings model is one such model. It provides a fundamental
+basis for understanding of the physics behind quantum computing.
+\\[6pt]
+The Jaynes-Cummings model considers a two-level atom interacting with laser
+light, whose frequency is in resonance with the transition energy between the
+levels.
+Under these assumptions we can describe the state of the atom completely by a
+two-dimensional (complex) vector of unit length. The interaction with the
+laser field is then given by a $2\times 2$ complex matrix. This interaction
+contains two parts: if the atom is in the ground state, it can absorb a photon
+and reach the excited state, while if the atom is in the excited state, it can
+emit a photon and drop back into the ground state. This is
+described by the following interaction Hamiltonian
+\[
+H = \lambda \hbar \left(a\sigma_+ +a^{\dag} \sigma_-\right),
+\]
+where $\lambda$ is the interaction strength, $\hbar$ is Planck's constant,
+$a$ and $a^\dagger$ are the photon annihilation (absorption) and creation
+(emission) operators and $\sigma_+$ and $\sigma_-$ the atomic raising and
+lowering operators. (The two states of the atom can be viewed mathematically
+as ``spin-down'' and ``spin-up'' states, hence the use of Pauli
+matrices, $\sigma _{\pm }=\sigma _x\pm i\sigma _y$.)\\[6pt]
+In the project, the aim is to understand the Jaynes-Cummings model, and to
+obtain the time evolution operator $U(t)$ for the interaction  Hamiltonian,
+where
+\[
+U(t) = e^{-iHt}.
+\]
+{\bf References}\\[3pt]
+S.~M. Barnett and P.~M. Radmore, {\em Methods in Theoretical Quantum Optics},
+Ch.~2.\\[3pt]
+W. P. Schleich, {\it Quantum Optics in Phase Space}.
+

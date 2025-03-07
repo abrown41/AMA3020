@@ -1,0 +1,30 @@
+\underline{\bf The Dirac delta function and entropy of harmonic oscillators} \hfill {\em Dr.\ Alavi} 
+\\[0.1cm]
+The Dirac delta function $\delta(x)$ appears in many branches of mathematical physics.  It has a number of
+formal properties, including
+\begin{eqnarray}
+\delta(x) & = & 0 \hspace*{0.5cm} (x \neq 0) \\[0.2cm]
+\int_{- \infty}^{\infty} \delta(x) ~  dx & = & 1 \\[0.2cm]
+\int_{- \infty}^{\infty} \delta(x-x_0) ~ f(x)~ dx & = & f(x_0) \\[0.2cm]
+\delta(f(x)) & = & \left| \frac{df(x)}{dx} \right| ^{-1} \delta(x-x_0) 
+\end{eqnarray}
+where in the last formula $x_0$ is chosen so that $f(x_0)$=0.  We are going to use the Dirac delta function
+to evaluate the entropy of a system of harmonic oscillators. \\[0.2cm]
+Consider an $N$ dimensional harmonic oscillator with the following Hamiltonian
+\begin{displaymath}
+H ~ = ~ \sum_{i=1}^N \frac{p_i^2}{2} ~ + ~ \sum_{i=1}^N \frac{x_i^2}{2}
+\end{displaymath}
+where $\{x_i\}$ are the coordinate variables and $\{p_i\}$ are the corresponding momenta.
+\\[0.2cm]
+If the system has total energy $E$, then the entropy $S$ of the system is given by
+\begin{displaymath}
+e^S ~ = ~ \int \delta(H-E)~dx_1dx_2...dx_Ndp_1dp_2...dp_N
+\end{displaymath}
+By investigating the properties of the Dirac delta function, obtain analytic formulae for $S$ as a 
+function of $E$ and $N$. Show that
+\begin{displaymath}
+S ~ = ~ C(N) ~ + ~ (N-1) \log E
+\end{displaymath}
+where $C(N)$ is a constant dependent only on $N$.  Hence show that the entropy of the one-dimensional 
+oscillator is independent of $E$. \\[0.2cm]
+[Hint: Consider the special cases with $N$=1,2,3 respectively, before attempting the general case.]

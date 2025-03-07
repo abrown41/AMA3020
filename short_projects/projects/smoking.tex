@@ -1,0 +1,30 @@
+\section{A model for giving up smoking\\ \small{(%Pathway: Any; 
+Pre-requisite: Familiarity with differential equations)}}
+%\item
+%\underline{\large\bf A model for giving up smoking} \\[0.1cm]
+Let $S(t)$ denote the number of smokers at time $t$, $P(t)$ the number of
+potential smokers, i.e., those who have not taken it up yet, and $Q(t)$ the
+number of smokers who have quit permanently, and let $N=S(t)+P(t)+Q(t)$ be
+the total population size which is assumed to be constant.
+A possible model of the variation of $S(t)$, $P(t)$, and $Q(t)$ with time is given by
+\begin{eqnarray*}
+\frac{dP(t)}{dt} &\!\!\! =\!\!\! & \mu N - \beta P(t) \frac{S(t)}{N} - \mu P(t),\\
+\frac{dS(t)}{dt} &\!\!\! =\!\!\! & \beta P(t) \frac{S(t)}{N} - (\mu + \gamma) S(t),\\
+\frac{dQ(t)}{dt} &\!\!\! =\!\!\! & \gamma S(t) - \mu Q(t),
+\end{eqnarray*}
+where $\beta$ determines the rate at which potential smokers take up
+smoking due to contact with smokers, $1/\gamma $ is the average time as a
+smoker, and $1/\mu$ is the average time in the population.
+\begin{itemize}\setlength{\itemsep}{0pt}
+\item Explain each term in the above differential equations. What assumptions
+are being made in this model?
+\item Re-write the equations in terms of the population fraction variables
+\begin{displaymath}
+x(t) = \frac{P(t)}{N}, \quad y(t) = \frac{S(t)}{N}, \quad z(t) = \frac{Q(t)}{N},
+\end{displaymath}
+and show by changing the time variable to $\tau =\mu t$, that the behaviour
+of the system depends only on $\beta /\mu $ and $\gamma /\mu $. 
+\item Study the equilibrium positions of this system of equations, and the
+behaviour of $x,y,z$ close to equilibrium positions.
+\item Investigate simple modifications to the model.
+\end{itemize}
