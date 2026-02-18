@@ -1,6 +1,19 @@
-The equation of a central quadric has the general form
+\section{Quadrics\\ \small{(%Pathway: Any; 
+Pre-requisite: None)}}
+
+Quadric surfaces are the three-dimensional analogues of conic sections (ellipses, parabolas, hyperbolas). They appear throughout physics and mathematics: from satellite orbits to stress tensors, from optics to relativity. The general equation of a centered quadric surface can be written as:
 \begin{displaymath}
-\sum_{i=1}^3 \sum_{j=1}^3 a_{ij}(x_i - x_i^0)(x_j - x_j^0) = 1, \hspace*{0.5cm} a_{ji} = a_{ij}
+\sum_{i=1}^3 \sum_{j=1}^3 a_{ij}(x_i - x_i^0)(x_j - x_j^0) = 1, \quad \text{where } a_{ji} = a_{ij}
 \end{displaymath}
-Classify these surfaces given that the determinant $|a_{ij}| \neq 0$.  \\[0.3cm]
-Then consider the possible cases if $|a_{ij}|=0$. \\
+Here $(x_1^0, x_2^0, x_3^0)$ is the center, and the symmetry condition means the coefficient matrix $A = (a_{ij})$ is symmetric.
+
+
+A symmetric matrix can always be diagonalized by an orthogonal transformation
+(rotation of coordinates). For $|a_{ij}| \neq 0$, show that by choosing principal axes, the equation reduces to:
+   \begin{displaymath}
+   \lambda_1 x'^2 + \lambda_2 y'^2 + \lambda_3 z'^2 = 1
+   \end{displaymath}
+   where $\lambda_1, \lambda_2, \lambda_3$ are the eigenvalues of $A$.
+
+Classify the possible quadric surfaces based on the signs of the three
+eigenvalues. As an extension, consider the case when $|a_{ij}| = 0$.

@@ -1,25 +1,31 @@
+\section{Hypergeometric functions in Quantum Theory\\ \small{(%Pathway: Any; 
+Pre-requisite: Quantum theory)}}
 
-\item
-\underline{\large\bf Hypergeometric functions in Quantum Theory}  \\[0.1cm]
-In Quantum Theory, there arise Hermite, Laguerre and Gauss polynomials.  They are best understood in 
-the framework of the hypergeometric function $_pF_q$. \\[0.2cm]
-Typically, we have
+
+The confluent hypergeometric function $_1F_1$ and the Gauss hypergeometric function $_2F_1$ are defined by:
+\begin{align}
+_1F_1(a,c;z) &= \sum_{n=0}^{\infty} \frac{(a)_n z^n}{(c)_n n!} \\
+_2F_1(a,b,c;z) &= \sum_{n=0}^{\infty} \frac{(a)_n (b)_n z^n}{(c)_n n!}
+\end{align}
+where the Pochhammer symbol $(a)_n$ represents the rising factorial:
 \begin{displaymath}
-_1F_1(a,c;z) ~ \equiv ~ \sum_{n=0}^{\infty} \frac{(a)_n z^n}{(c)_n n!}
-\end{displaymath}
-and
-\begin{displaymath}
-_2F_1(a,b,c;z) ~ \equiv ~ \sum_{n=0}^{\infty} \frac{(a)_n (b)_n z^n}{(c)_n n!}
-\end{displaymath}
-where the Pochhammer symbol is defined by
-\begin{displaymath}
-(a)_n = \left \{ \begin{array}{cl}
+(a)_n = \begin{cases}
 a(a+1)(a+2) \cdots (a+n-1) & (n \geq 1) \\
-1 & (n=0)  \end{array} 
-\right .
+1 & (n=0)
+\end{cases}
 \end{displaymath}
-The special functions of quantum mechanics should be systematically interpreted using this notation.  
-This facilitates the discovery of the eigenvalues, as a result of terminating series in contrast to divergent 
-infinite series. \\[0.5cm]
-(ref: M.\ Abramowitz and I.A.\ Stegun, (1970): {\em Handbook of Mathematical Functions}) \\
+
+Show that Hermite polynomials $H_n(x)$, Laguerre polynomials $L_n(x)$ (or
+associated Laguerre $L_n^{\alpha}(x)$), and Legendre polynomials $P_n(x)$ can
+each be written as hypergeometric functions with specific parameter choices.
+Show that for certain quantum system(s) like
+\begin{itemize}
+   \item Quantum harmonic oscillator (Hermite)
+   \item Hydrogen atom radial equation (Laguerre)
+   \item Angular momentum/Legendre equation (Legendre)
+\end{itemize}
+the differential equation leads to a hypergeometric series solution.
+
+{\bf References}\\[3pt]
+Abramowitz \& Stegun, Handbook of Mathematical Functions (1970), Chapters 13, 15, 22
 
